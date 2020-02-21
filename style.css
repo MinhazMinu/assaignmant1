@@ -122,3 +122,32 @@ section-1
   margin-top: 4%;
   margin-bottom: 9%;
 }
+
+.last-work {
+  background-image: url("./img/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-work img {
+  width: 86%;
+  float: left;
+}
+.pic1 {
+  margin-left: 7%;
+}
+.pic2 {
+  margin-right: 7%;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
