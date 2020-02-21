@@ -109,9 +109,16 @@ section-1
   font-size: 2em;
   font-weight: 400;
   color: #000000;
+  margin-top: -20px;
 }
 
 .comp {
   margin-top: 220px;
   padding-left: 80px;
+}
+
+.long-text2 {
+  font-size: 0.82em;
+  margin-top: 4%;
+  margin-bottom: 9%;
 }
