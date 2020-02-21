@@ -195,16 +195,17 @@ section-1
   text-align: center;
   margin-top: 100px;
 }
+.mail {
+  margin-top: 700px;
+}
 
 #client {
   font-size: 2em;
   font-weight: 400;
   color: #000000;
   text-align: center;
-  margin-top: 40px;
-  position: relative;
+
   margin-bottom: 60px;
-  padding-top: 20px;
 }
 #bruce,
 #found,
@@ -329,4 +330,72 @@ hover effect
 .nav-link li a:hover:after {
   width: 100%;
   left: 0;
+}
+
+/* ==== */
+
+.box3 {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 70%;
+  background-color: #ffffff;
+  border-left: 5px solid;
+  margin-bottom: 40px;
+}
+.one-third {
+  width: 22%;
+  float: left;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.expertices {
+  background-image: url("./img/16.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  float: left;
+}
+#lbox {
+  border-image: linear-gradient(180deg, #eba81e, tomato);
+  border-image-slice: 1;
+}
+#lbox .span {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(180deg, #ff1078, #f1609f);
+  border-image-slice: 1;
+  font-size: 30px;
+  color: #777777;
+}
+
+#mbox {
+  border-image: linear-gradient(180deg, #ff1078, tomato);
+  border-image-slice: 1;
+}
+#mbox .span {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+  font-size: 30px;
+  color: #777777;
+}
+
+#rbox {
+  border-image: linear-gradient(180deg, #d33e7f, #1ecceb);
+  border-image-slice: 1;
+}
+#rbox .span {
+  border-bottom: 2px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  font-size: 30px;
+  color: #777777;
+}
+
+#exp {
+  font-size: 2em;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
