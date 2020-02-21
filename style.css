@@ -25,10 +25,19 @@ span {
   margin-bottom: -10px;
 }
 
-section {
-  /* padding: 80px 0; */
-  min-height: 800px;
+.section-4 {
+  min-height: 650px;
   min-width: 1140px;
+  background-image: url("./img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-3 {
+  min-height: 600px;
+  min-width: 1140px;
+  background-image: url("./img/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ================
@@ -39,6 +48,8 @@ section-1
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  min-height: 800px;
+  min-width: 1140px;
   /* background-position: center; */
 }
 .box {
@@ -83,6 +94,8 @@ section-1
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  min-height: 800px;
+  min-width: 1140px;
 }
 
 .box2 {
@@ -170,9 +183,75 @@ section-1
   font-weight: 400;
   color: #000000;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 #client {
-  margin-top: 0;
+  font-size: 2em;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+#bruce,
+#found,
+#lorem,
+#btn,
+#prog,
+#copy {
+  text-align: center;
+}
+
+#bruce {
+  font-size: 0.7em;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 3px;
+  padding-top: 20px;
+}
+#found {
+  font-size: xx-small;
+  margin-bottom: 50px;
+}
+#lorem {
+  font-size: 0.7em;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+/* #btn {
+  color: white;
+  background-color: #8845f4;
+  padding: 13px 42px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 10px;
+} */
+button {
+  color: white;
+  background-color: #8845f4;
+  padding: 22px 42px;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#btnm {
+  padding-top: 20px;
+  font-size: 0.1px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+#copy {
+  margin-top: 300px;
 }
