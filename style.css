@@ -12,7 +12,7 @@ body {
   /* max-width: 1140px; */
 }
 span {
-  color: rgb(230, 116, 178);
+  color: #ff1078;
   font-size: 2.3em;
   font-weight: 700;
   margin-top: 7px;
@@ -54,7 +54,7 @@ section-1
 }
 .box {
   width: 45%;
-  border: 1px solid blue;
+
   justify-content: left;
 }
 
@@ -81,7 +81,7 @@ section-1
 
 .btn {
   color: white;
-  background-color: #8845f4;
+  background-image: linear-gradient(to right, #ff041f 0%, #ff1078 100%);
   padding: 13px 42px;
   border-radius: 5px;
   text-decoration: none;
@@ -100,7 +100,7 @@ section-1
 
 .box2 {
   width: 45%;
-  border: 1px solid blue;
+
   justify-content: left;
 }
 
@@ -234,7 +234,7 @@ section-1
 } */
 button {
   color: white;
-  background-color: #8845f4;
+  background-image: linear-gradient(to right, #ff509c 0%, #ff1078 100%);
   padding: 22px 42px;
   border-radius: 7px;
   text-decoration: none;
