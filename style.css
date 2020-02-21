@@ -1,0 +1,116 @@
+/* ================
+Resuable component
+=================== */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #777777;
+
+  /* max-width: 1140px; */
+}
+h1 {
+  font-size: 2em;
+  font-weight: 300;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+section {
+  /* padding: 80px 0; */
+  min-height: 800px;
+  min-width: 1140px;
+}
+
+/* ================
+section-1
+=================== */
+.section-1 {
+  background-image: url("./img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* background-position: center; */
+}
+.box {
+  width: 45%;
+  border: 1px solid blue;
+  justify-content: left;
+}
+
+.lside {
+  margin-left: 5%;
+  padding-top: 18%;
+  padding-left: 9.5%;
+  margin-right: -1%;
+}
+.rside {
+  margin-right: 10%;
+}
+
+.rside img {
+  width: 100%;
+  padding-top: 23%;
+  margin-left: -1%;
+}
+.long-text {
+  font-size: 0.82em;
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+
+.btn {
+  color: white;
+  background-color: #8845f4;
+  padding: 13px 42px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*
+.lside1 {
+  border: 1px solid blue;
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+.rside1 {
+  width: 49%;
+  float: left;
+  border: 1px solid blue;
+}
+.rside1 .img {
+  width: 50%;
+}
+/* .half {
+  width: 45%;
+  float: left;
+
+  border: 1px solid rebeccapurple;
+} */
+
+/* img {
+  float: left;
+  width: 100%;
+} */
+/* .lside1 {
+  padding-top: 220px;
+  padding-left: 100px;
+} */
+/*
+.rside {
+  padding-top: 220px;
+}
+
+.long-text {
+  font-size: 0.8em;
+}  */
+span {
+  color: rgb(230, 116, 178);
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-top: 7px;
+}
