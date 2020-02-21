@@ -11,9 +11,15 @@ body {
 
   /* max-width: 1140px; */
 }
-h1 {
+span {
+  color: rgb(230, 116, 178);
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-top: 7px;
+}
+#hello-text {
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 400;
   color: #000000;
   margin-top: 20px;
   margin-bottom: -10px;
@@ -70,47 +76,42 @@ section-1
   text-decoration: none;
   text-transform: uppercase;
 }
-/*
-.lside1 {
-  border: 1px solid blue;
-  width: 35%;
-  float: left;
-  text-align: right;
+
+/* section2 */
+.section-2 {
+  background-image: url("./img/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
-.rside1 {
-  width: 49%;
-  float: left;
-  border: 1px solid blue;
-}
-.rside1 .img {
-  width: 50%;
-}
-/* .half {
+
+.box2 {
   width: 45%;
-  float: left;
-
-  border: 1px solid rebeccapurple;
-} */
-
-/* img {
-  float: left;
-  width: 100%;
-} */
-/* .lside1 {
-  padding-top: 220px;
-  padding-left: 100px;
-} */
-/*
-.rside {
-  padding-top: 220px;
+  border: 1px solid blue;
+  justify-content: left;
 }
 
-.long-text {
-  font-size: 0.8em;
-}  */
-span {
-  color: rgb(230, 116, 178);
-  font-size: 2.3em;
-  font-weight: 700;
-  margin-top: 7px;
+.lside2 {
+  margin-left: 5%;
+}
+
+.rside2 {
+  margin-right: 10%;
+}
+
+.lside2 img {
+  width: 85%;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+#bio-text {
+  font-size: 2em;
+  font-weight: 400;
+  color: #000000;
+}
+
+.comp {
+  margin-top: 220px;
+  padding-left: 80px;
 }
