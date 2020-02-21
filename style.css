@@ -127,27 +127,52 @@ section-1
   background-image: url("./img/latest-work-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.flx {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* min-height: 600px;
+  min-width: 1140px; */
+  height: 500px;
 }
 
-.last-work img {
+/* .last-work img {
   width: 86%;
   float: left;
-}
-.pic1 {
-  margin-left: 7%;
-}
-.pic2 {
-  margin-right: 7%;
+} */
+.pic {
+  width: 350px;
+  margin: 25px;
 }
 
-h2 {
+/* #pic1 {
+  margin-left: 30%;
+}
+.pic2 {
+  padding-left: 30%;
+}
+#pic3 {
+  margin-right: 12%;
+} */
+/* #pic1 {
+  margin-left: 10%;
+  padding-left: 10%;
+}
+#pic2 {
+  margin-left: 10%;
+  padding-left: 10%;
+} */
+#last {
   font-size: 2em;
   font-weight: 400;
   color: #000000;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 80px;
+}
+
+#client {
+  margin-top: 0;
 }
